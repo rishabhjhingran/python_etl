@@ -1,0 +1,2 @@
+requests==2.32.3
+configparser==6.0.0

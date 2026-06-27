@@ -1,0 +1,26 @@
+servicenow:
+  url: "https://instance.service-now.com/api/now/table/incident"
+  user: "api_user"
+  password: "api_password"
+
+groups:
+  - "Network Support"
+  - "Database Admin"
+  - "Application Support"
+
+columns:
+  - number
+  - short_description
+  - opened_at
+  - state
+  - assignment_group
+  - assigned_to
+  - cmdb_ci
+  - work_notes
+
+dates:
+  start: "2026-06-01"
+  end: "2026-06-30"
+
+output:
+  excel_file: "incident_report.xlsx"

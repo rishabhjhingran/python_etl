@@ -1,0 +1,7 @@
+outlook:
+  email: "service_account@domain.com"
+  password: "your_password"
+  shared_mailbox: "shared_mailbox@domain.com"
+
+database:
+  uri: "mssql+pyodbc://username:password@dsn_name"
