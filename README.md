@@ -6,7 +6,7 @@
 [![REST APIs](https://img.shields.io/badge/REST_APIs-ServiceNow_%7C_Webex-0052CC?style=flat)](https://restfulapi.net)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-PyODBC-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
 
-A collection of **4 production Python automation pipelines** built and deployed at Tata Consultancy Services — covering REST API ingestion, Outlook mailbox ETL, SQL-to-email reporting, and Webex alerting via OAuth2.
+A collection of **4 production Python automation pipelines** built and deployed covering REST API ingestion, Outlook mailbox ETL, SQL-to-email reporting, and Webex alerting via OAuth2.
 
 These are cleaned, config-driven versions of systems that processed **1,000+ incidents monthly**, served **200+ associates**, and cut manual effort by up to **40%** across 10+ business units.
 
